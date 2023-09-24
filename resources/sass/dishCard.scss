@@ -1,0 +1,74 @@
+.dish-card {
+   margin: 0 auto;
+   border-radius: 30px;
+   
+   display: flex;
+   margin-bottom: 20px;
+   height: 180px;
+   width: 410px;
+}
+
+.dish-card:hover{
+   box-shadow: #c0c0c0 0px 0px 5px;
+}
+
+.dish-card_image-box {
+   width: 180px;
+   height: 180px;
+   border-radius: 30px;
+   overflow: hidden;
+}
+.dish-card_content-box {
+   margin-left: 24px;
+   width: 205px;
+   padding-top: 14px;
+   padding-right: 14px;
+}
+
+// ====== title description price ======
+.dish-card_title {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.dish-card_ingredients {
+   // для ... после одной строки:
+   // white-space: nowrap;
+   // overflow: hidden;
+   // text-overflow: ellipsis;
+
+   // для ... после N строк:
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+
+
+   // background-color: red;
+
+   font-size: 14px;
+   line-height: 18px;
+   height: 56px;
+   margin-bottom: 10px;
+   
+
+   // display: block;
+}
+
+.dish-card_price {
+   font-size: 18px;
+   font-weight: 600;
+
+}
+
+.dish-card_add-to-cart{
+   font-size: 16px;
+   // font-weight: 600;
+
+   a{
+      color: #000;
+   }
+   
+}
+
+// ======================================

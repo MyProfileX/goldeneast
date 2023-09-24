@@ -1,0 +1,59 @@
+.dish-show-card {
+   margin: 0 auto;
+   // background-color: orange;
+   width: 410px;
+}
+
+.dish-show-image{
+   display: block;
+   margin: 0 auto;
+}
+.dish-show-card_image-box {
+   // background-color: #FCE9A7;
+   width: 410px;
+   height: 230px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.dish-show-card_content-box {
+   margin-bottom: 46px;
+}
+.buttons-block{
+   width: 410px;
+   margin: 0 auto;
+   display: flex;
+   padding-left: 198px;
+   a{
+      display: block;
+      margin-left: 20px;
+   }
+}
+
+// ====== features ======
+.feature-title{
+   font-weight: 600;
+}
+// ======================
+
+.dish-show-card_add-to-cart{
+   display: block;
+   width: 410px;
+   height: 42px;
+   border: #000 3px solid;
+   border-radius: 10px;
+
+   text-align: center;
+   padding: 10px;
+   
+   font-size: 16px;
+   a{
+      color: #000;
+   }
+}
+
+.dish-show-card_ingredients {
+   font-size: 14px;
+   line-height: 18px;
+   height: 56px;
+   margin-bottom: 10px;
+}
