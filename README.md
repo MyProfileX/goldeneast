@@ -3,7 +3,7 @@ In course of developmet of this project i've studied a lot of basic and more com
 
 Some of them:
 
-1) Designing of the application's database (DB_Srtucture.png - check root of repo);</br>
+1) Designing of the application's database (DB_Srtucture.png - check the root of repo);</br>
 
 2) Basic understanding of Laravel application and project architecture;</br>
 3) Studying of MVC pattern and CRUD theory and it's further practical using;</br>
