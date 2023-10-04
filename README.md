@@ -3,45 +3,41 @@ In course of developmet of this project i've studied a lot of basic and more com
 
 Some of them:
 
-Designing of the application's database  </br>
+1) Designing of the application's database;</br>
 
-Basic understanding of Laravel application and project architecture</br>
-Studying of MVC pattern and CRUD theory and it's further practical using</br>
+2) Basic understanding of Laravel application and project architecture;</br>
+3) Studying of MVC pattern and CRUD theory and it's further practical using;</br>
 
-Using the model relations (One-to-One, One-to-Many Many-to-Many)</br>
-Using migrations, factories and seeders for completely working with application's data</br>
-Realization of business-logic with resource and single-method Controllers </br>
+4) Using the model relations (One-to-One, One-to-Many Many-to-Many);</br>
+5) Using migrations, factories and seeders for completely working with application's data;</br>
+6) Realization of business-logic with resource and single-method Controllers;</br>
+7) Implemented vlidation using requests;</br>
 
-Role devision (User / Admin)</br>
+8) Routing (group, prefix, namespace, middlewares, naming);</br>
 
-User:
+Auth:
+- Registration / Authorization + email verification;</br>
+- Integrating Google RE:Capcha;</br>
+- Role assignment and access managementing with middlewares and gates;</br>
+
+Role devision (User / Admin):</br>
+
+1) User:
 - Index + Show
-  
 - LiveSearch with AJAX
-  
 - Cart:
     - Made with session
     - Changing quantity of items
     - Counting subtotal and total price
     - Chechkout with Stripe Payment System 
 
-Admin:
+2) Admin:
 - Integration of AdminPanel (Admin LTE)
-  
-- CRUD realisation + Uploading pictures
-
-Implemented vlidation using requests.</br>
-
-
-
-Routing (group, prefix, namespace, middleware)</br>
+- Realisation of CRUD funtionality with Validation + Uploading pictures
 
 
 
 
-- Authorization + email verification
-- Integrating Google RE:Capcha
-- Role assignment and access managementing with middlewares and gates
 
 
 
