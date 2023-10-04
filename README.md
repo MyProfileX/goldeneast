@@ -6,17 +6,34 @@ Some of them:
 Designing of the application's database  
 
 Basic understanding of Laravel application and project architecture
-Studying of MVC pattern and CRUD theory and it's further practical application
+Studying of MVC pattern and CRUD theory and it's further practical using
 
 Using the model relations (One-to-One, One-to-Many Many-to-Many)
 Using migrations, factories and seeders for completely working with application's data
 Realization of business-logic with resource and single-method Controllers
 
-Routing (group, prefix, namespace, middleware)
+Role devision (User / Admin)
 
+User:
+- Index + Show
+  
+- LiveSearch with AJAX
+  
+- Cart:
+    - Made with session
+    - Changing quantity of items
+    - Counting subtotal and total price
+    - Chechkout with Stripe Payment System 
 
+Admin:
+- Integration of AdminPanel (Admin LTE)
+  
+- CRUD realisation + Uploading pictures
 
 Implemented vlidation using requests.
+
+
+Routing (group, prefix, namespace, middleware)
 
 
 
