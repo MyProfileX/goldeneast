@@ -15,6 +15,10 @@ Some of them:
 
 8) Routing (group, prefix, namespace, middlewares, naming);</br>
 
+9) Working with blade.php (@extends, @yeild, @includes)
+10) Working with bootstrap5
+11) Adding alerts with timeout
+
 Auth:
 - Registration / Authorization + email verification;</br>
 - Integrating Google RE:Capcha;</br>
@@ -34,6 +38,9 @@ Role devision (User / Admin):</br>
 2) Admin:
 - Integration of AdminPanel (Admin LTE)
 - Realisation of CRUD funtionality with Validation + Uploading pictures
+
+
+
 
 
 
