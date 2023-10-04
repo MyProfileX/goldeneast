@@ -5,12 +5,34 @@ Some of them:
 
 Designing of the application's database  
 
-Basic understanding of Laravel application and project arhcitecture
-Studying theory of MVC pattern and it's further practical application
+Basic understanding of Laravel application and project architecture
+Studying of MVC pattern and CRUD theory and it's further practical application
 
-Using migrations, factories and seeders for completely work with application's data
+Using the model relations (One-to-One, One-to-Many Many-to-Many)
+Using migrations, factories and seeders for completely working with application's data
+Realization of business-logic with resource and single-method Controllers
 
-Studiying the relations (One-to-One, One-to-Many Many-to-Many)
+Routing (group, prefix, namespace, middleware)
+
+
+
+Implemented vlidation using requests.
+
+
+
+
+Authorization + email verification
+Integrating Google RE:Capcha
+Role assignment and access managementing with middlewares and gates
+
+
+
+
+ 
+
+
+
+
 
 
 
