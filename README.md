@@ -15,9 +15,12 @@ Some of them:
 
 8) Routing (group, prefix, namespace, middlewares, naming);</br>
 
-9) Working with blade.php (@extends, @yeild, @includes)
-10) Working with bootstrap5
-11) Adding alerts with timeout
+
+
+9) Using foreach, if-else loop statements  
+10) Working with blade.php (@extends, @yeild, @includes)
+11) Working with bootstrap5
+12) Adding alerts with timeout
 
 Auth:
 - Registration / Authorization + email verification;</br>
