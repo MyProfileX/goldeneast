@@ -13,8 +13,7 @@ class AdminPanelController extends Controller
 {
    public function __invoke()
    {
-      
-      // Добавлял для поздчёта в sidebar
+      // Добавлял для подсчёта в sidebar
       $countries = Country::all();
       $ingredients = Ingredient::all();
       $dishes = Dish::all();
@@ -22,3 +21,9 @@ class AdminPanelController extends Controller
    } 
    
 }
+
+
+
+
+
+

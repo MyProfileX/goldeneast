@@ -145,6 +145,7 @@
         </div>
         <div class="info">
           <a href="#" class="d-block">{{ auth()->user()->name }}</a>
+          {{-- attempt to read ... on null - проверь, авторизирован ли пользователь. Залогинься заново. --}}
           {{-- <a href="#" class="d-block">{{ auth()->user()->email }}</a> --}}
         </div>
       </div>

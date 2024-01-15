@@ -11,9 +11,6 @@ class AddController extends Controller
     public function index(Dish $dish)
     {
 
-
-      
-
       $cart = session()->get('cart', []); // извлекаем значения с ключом ‘cart’ из сессии
 
       if(isset($cart[$dish->id])) {

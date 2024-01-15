@@ -72,7 +72,7 @@
 
                         {{-- Admin --}}
                         @can('adminNav')
-                        <li class="nav-item"><a href={{ route('admin.main_page.dish.index') }} class="nav-link">Main(A)</a></li>
+                        {{-- <li class="nav-item"><a href={{ route('admin.main_page.dish.index') }} class="nav-link">Main(A)</a></li> --}}
                         {{-- <li class="nav-item"><a href={{ route('admin.catalog_page.dish.index') }} class="nav-link">Catalog(A)</a></li> --}}
                         <li class="nav-item"><a href={{ route('admin.adminPanel_page.dish.index') }} class="nav-link">Admin</a></li>
                         @endcan
